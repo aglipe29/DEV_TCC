@@ -74,12 +74,54 @@
 }
 
 
+
+
+
+
+
+.Login{
+    background-color:cornflowerblue;
+    position: absolute;
+    top: 18%;
+    left: 60%;
+    padding: 70px;
+    border-radius: 30px;
+
+}
+
+.Titulos{
+    color: white;
+    text-align: center;
+}
+
+input{
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 15px;
+    background-color:white;
+}
+
+button{
+    background-color: #131d47;
+    color: white;
+    padding: 10px;
+    outline: #131d47;
+    border-radius: 15px;
+    width: 100%;
+}
+
+
+
+
+
+
+
     </style>
 </head>
 <body>
     <div class="navbar">
        
-    </div>
+    
         <div class="dropdown">
           <button class="dropbtn">Mais Sobre o Nixies &#9662
             <i class="fa fa-caret-down"></i>
@@ -96,27 +138,30 @@
       
    </div>
 
-   <form action="Login.php" method="post">
-    <div class="imgcontainer">
-      <img src="img_avatar2.png" alt="Avatar" class="avatar">
-    </div>
   
-    <div class="container">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
-  
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-          
-      <button type="submit">Login</button>
-      <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
-    </div>
-  
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
-    </div>
-  </form>
+        <div class="Login">
+            <form action="Login.PHP"></form>
+            <div class="Titulos">
+            <h1>Login</h1>
+            <div class="Input">
+            <input type="text" placeholder="Email ou Telefone">
+            <br>
+            <br>
+            <input type="password" placeholder="Senha">
+            </div>
+            <br>
+            <br>
+            <button>Logar</button>
+
+            <h2> OU </h2>
+
+            <button>Criar Conta
+                <a href="Tela de Cadastro.html"></a>
+            </button>
+
+        </div>
+        </div>
+    </form>
+        
+   
 </html>
