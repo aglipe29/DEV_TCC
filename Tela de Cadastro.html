@@ -1,12 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela de Transição </title>
+    <title>Tela de Cadastro  </title>
+    <style>
+
+        body{
+            background-color: #131d47;
+        }
+
+        .navbar{
+            background-color: #131d47;
+            overflow: hidden;
+        }
+
+        .btn a{
+            font-size: 50px;
+            text-decoration: none;  
+            color:white;
+            padding-left: 20px;
+        }
+
+        .Cadastro {
+
+            background-color:#5DDADB;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 25px;
+            color: #131d47;
+            position: absolute;
+            top: 20%;
+            left: 35%;
+            padding: 50px;
+
+        }
+
+        h1{
+            text-align: center;
+
+        }
+
+        input{
+    border-radius: 15px;
+    padding: 10px;
+    font-size:12px;
+    background-color:white;
+    color: #131d47;
+    }
+
+
+    </style>
 </head>
 <body>
     
+
+    <div class="Navbar">
+
+        <div class="btn">
+            
+                <a href="Tela de Inicio e Login.html">&#10550;</a>
+            
+        </div>
+
+
+    </div>
+
+    <div class="Cadastro">
+        <form action="Cadastro.PHP">
+        
+        <h1>Vai Entrar Como?</h1>
+        <div class="Input">
+             <p>
+        <input type="text" placeholder="Telefone"> OU  <input type="text" placeholder="Email">
+             </p>
+        <br>
+        <br>
+       
+        <input type="password" placeholder="Senha">
+        
+        <br>  
+       
+        <input type="password" placeholder="Repete ai">
+       
+        </div> 
+        <br>
+        <br>
+        <button>
+            <div class="btn1">
+            <a href="Tela de Transição.html" >Criar Conta</a>
+        </button>
+
+        </div>
+
+    </div>
+        </form>
+    </div>
 </body>
 </html>
