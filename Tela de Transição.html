@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="fontawesome/css/all.css" rel="stylesheet">
     <title>Home</title>
 
     <style>
@@ -20,28 +21,6 @@
             font-size: 30px;
         }   
 
-        .server{
-            left: 30%;
-        }
-
-        .server a{
-            background-color: #5DDADB;
-            float: left;
-            text-decoration: none;
-            color: #131d47;
-            padding: 20px;
-            
-
-        }
-
-        .perfil a{
-            float: right;
-            background-color: #5DDADB;
-            text-decoration: none;
-            color: #131d47;
-            padding: 20px;
-        }
-
         .navbar .voltar a{
             float: left;
             font-size: 50px;
@@ -50,8 +29,32 @@
             padding-left: 20px;
         }
 
+        .servidor{
+            font-family: Arial, Helvetica, sans-serif;
+            color:#131d47;
+            background-color: #5DDADB;
+            position: absolute;
+            padding: 50px;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 20px;
+            left: 20%;
+            top: 20%;
+
+        }
+
        
-    </style>
+
+        .servidor .diceIcon a{
+            display: inline-block;
+            color: white;
+            background-color:#131d47;
+            padding: 30px;
+            border-radius: 20px;
+            text-decoration: none;
+           }
+
+         </style>
 </head>
 <body>
 
@@ -62,21 +65,29 @@
 
         </div>
            <p> O que você Quer Fazer Agora?</p>
+    </div>
+
+
+           <div class="servidor">
+               <div class="text1">
+               <p> Sortear Servidor</p>
+            </div>
+            <br><br>
+
+            <div class="diceIcon">
+               <a href="Tela de Questionário.html"><i class="fas fa-dice"></i></a>
+            </div>
+
+        </div>
+
+
+        
+        
        
            
-            
-        
     
 
    
-    <div class="server">
-        <a href="Tela de Questionário.html"><p>Sortear Servidor</p></a>
-    </div>
-
-    <div class="perfil">
-        <a href="Tela de Perfil.html"> Personalizar Perfil</a>
-
-    </div>
     
 </body>
 </html>
