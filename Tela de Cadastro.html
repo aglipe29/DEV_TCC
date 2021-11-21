@@ -83,9 +83,9 @@
             border-radius: 25px;
             color: #131d47;
             position: absolute;
-            top: 25%;
+            top: 23%;
             left: 30%;
-            padding: 50px;
+            padding: 45px;
 
         }
 
@@ -96,22 +96,17 @@
             background-color:white;
         }
 
-        button {
-    background-color: #131d47;
-    color: white;
-    padding: 10px;
-    outline: #131d47;
-    border-radius: 15px;
-    width: 100%;
-    
-    
-    }
+        .Cadastro .inputCa {
+             background-color: #131d47;
+             color: white;
+             padding: 10px;
+             outline: #131d47;
+             border-radius: 15px;
+             width: 100%;
 
-    button a{
-        text-decoration: none;
-        font-size: 20px;
-        color: white;
-    }
+        }
+
+        
 
     h1{
         text-align: center;
@@ -154,26 +149,25 @@
         <h1>Vai Entrar Como?</h1>
         <div class="Input">
              <p>
-        <input type="text" placeholder="Telefone"> OU  <input type="text" placeholder="Email">
+        <input type="text" placeholder="Telefone" name="telefone" id="telefone"> OU  
+        <input type="text" placeholder="Email" name="email" id="email">
              </p>
         <br>
         <br>
        
-        <input type="password" placeholder="Senha">
+        <input type="password" placeholder="Senha" name="senha" id="senha">
         
         <br>  
         <br>
        
-        <input type="password" placeholder="Repete ai">
+        <input type="password" placeholder="Repete ai" name="repsenha" id="repsenha">
        
         </div> 
         <br>
         <br>
-        <button>
-            <div class="btn1">
-            <a href="Tela de Perfil.html" >Criar Conta</a>
-        </button>
-
+        <div class="inputCa">
+        <input type="submit" value="Criar Conta" id="cadastrar" name="cadastrar">
+        </div>
         </div>
 
     </div>
