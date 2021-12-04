@@ -117,7 +117,7 @@ body{
 
         <div class="btn">
             
-           <b><a href="Tela de Questionário.html">&#10550;</a></b> 
+           <b><a href="Tela de Questionário.php">&#10550;</a></b> 
         
     </div>
 </div>

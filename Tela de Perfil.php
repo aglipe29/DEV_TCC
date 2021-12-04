@@ -65,7 +65,7 @@
 
         <div class="btn">
             
-           <b> <a href="Tela de Transição.html">&#10550;</a></b>
+           <b> <a href="Tela de Transição.php">&#10550;</a></b>
         
     </div>
 
