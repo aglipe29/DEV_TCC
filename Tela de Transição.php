@@ -192,7 +192,7 @@
             <br><br>
 
             <div class="diceIcon">
-               <a href="Tela de Questionário.html"><i class="fas fa-dice"></i></a>
+               <a href="Tela de Questionário.php"><i class="fas fa-dice"></i></a>
             </div>
 
         </div>
@@ -204,7 +204,7 @@
             <br><br>
 
             <div class="userIcon">
-               <a href="Tela de Perfil.html"><i class="fas fa-user"></i></a>
+               <a href="Tela de Perfil.php"><i class="fas fa-user"></i></a>
             </div>
         </div>
 

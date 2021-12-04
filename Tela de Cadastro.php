@@ -1,10 +1,6 @@
 <?php
         if(isset($_POST['submit']))
         {
-        //print_r($_POST['email']);
-        // print_r($_POST['senha']);
-        //print_r($_POST['nome']);
-        
           include_once('config.php');
           $nome = $_POST['nome'];
           $email = $_POST['email'];
@@ -14,7 +10,6 @@
 
           header('Location: Tela de Inicio e Login.php');
         }
-
 ?>
 
 <!DOCTYPE html>
@@ -25,7 +20,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Cadastro</title>
     <style>
-
         body{
             background-color: #131d47;
         }
@@ -46,9 +40,6 @@
         .dropdown {
         float: right;
         margin-top: -5%;
-        
-        
-
         }
 
         .dropdown .dropbtn {
@@ -94,9 +85,7 @@
         display:list-item;
         }
 
-
         .Cadastro {
-
             background-color:#5DDADB;
             font-family: Arial, Helvetica, sans-serif;
             border-radius: 25px;
@@ -105,7 +94,6 @@
             top: 23%;
             left: 35%;
             padding: 45px;
-
         }
 
         input{
@@ -130,19 +118,14 @@
            font-size: 20px;
        }
          
-        
-
-    h1{
+        h1{
         text-align: center;
     }
 
-      
-
-    </style>
+      </style>
 </head>
 <body>
     
-
     <div class="Navbar">
 
         <div class="btn">
@@ -186,10 +169,7 @@
         
         <br>  
         <br>
-       
-        
-       
-        </div> 
+       </div> 
         <br>
         <br>
        

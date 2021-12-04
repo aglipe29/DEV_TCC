@@ -95,11 +95,6 @@
              text-decoration: none;
              color: white;
          }
-
-         
-
-     
-
     </style>
 <body> 
 
@@ -107,7 +102,7 @@
 
         <div class="btn">
             
-           <b><a href="Tela de Transição.html">&#10550;</a></b> 
+           <b><a href="Tela de Transição.php">&#10550;</a></b> 
         
     </div>
 </div>
@@ -117,36 +112,28 @@
 
     <div class="filmes">
         <b><p>Filmes</p></b>
-        <a href="Tela de Chat Filmes.html"><i class="fas fa-video"></i></a>
+        <a href="Tela de Chat Filmes.php"><i class="fas fa-video"></i></a>
     </div>
 
     <div class="jogos">
         <b><p>Jogos</p></b>
-       <a href="Tela de Chat Jogos.html"><i class="fas fa-gamepad"></i></a>
+       <a href="Tela de Chat Jogos.php"><i class="fas fa-gamepad"></i></a>
     </div>
 
     <div class="series">
         <b><p>Séries</p></b>
-       <a href="Tela de Chat Séries.html"> <i class="fas fa-tv"></i></a>
+       <a href="Tela de Chat Séries.php"> <i class="fas fa-tv"></i></a>
     </div>
 
     <div class="livros">
         <b><p>Livros</p></b>
-       <a href="Tela de Chat Livros.html"> <i class="fas fa-book-open"></i></a>
+       <a href="Tela de Chat Livros.php"> <i class="fas fa-book-open"></i></a>
     </div>
 
     <div class="animes">
         <b><p>Animes</p></b>
-        <a href="Tela de Chat Animes.html"><i class="fas fa-hat-wizard"></i></a>
+        <a href="Tela de Chat Animes.php"><i class="fas fa-hat-wizard"></i></a>
     </div>
-
-
-
-
-
-
-    
-
 </div>
 
 
