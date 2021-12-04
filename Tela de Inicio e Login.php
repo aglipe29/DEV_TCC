@@ -166,19 +166,19 @@ button{
 
   
         <div class="Login">
-            <form method="POST" action="Login.php">
+            <form method="POST" action="testeLogin.php">
             <div class="Titulos">
             <h1><b>Login</b></h1>
             <div class="Input">
-            <input type="text" placeholder="Email ou Telefone" name="login" id="login">
+            <input type="text" placeholder="Email" name="login" id="login">
             <br>
             <br>
             <input type="password" placeholder="Senha" name="senha" id="senha">
             </div>
             <br>
             <br>
-            <b><input type="submit" value="Logar" id="entrar" name="entrar" style="width: 100%; background-color: #131d47; color: white; 
-            font-size: 20px;"></b><br>
+           <input type="submit" value="Logar" id="entrar" name="entrar" style="width: 100%; background-color: #131d47; color: white; 
+            font-size: 20px;"><br>
             <h2> OU </h2>
 
             <button>
