@@ -166,23 +166,19 @@ button{
 
   
         <div class="Login">
-            <form action="Login.PHP">
+            <form method="POST" action="Login.php">
             <div class="Titulos">
             <h1><b>Login</b></h1>
             <div class="Input">
-            <input type="text" placeholder="Email ou Telefone">
+            <input type="text" placeholder="Email ou Telefone" name="login" id="login">
             <br>
             <br>
-            <input type="password" placeholder="Senha">
+            <input type="password" placeholder="Senha" name="senha" id="senha">
             </div>
             <br>
             <br>
-            <button>
-                <div class="btn1">
-                <b><a href="Tela de Transição.html" >Logar</a></b>
-            </div>
-            </button>
-
+            <b><input type="submit" value="Logar" id="entrar" name="entrar" style="width: 100%; background-color: #131d47; color: white; 
+            font-size: 20px;"></b><br>
             <h2> OU </h2>
 
             <button>
