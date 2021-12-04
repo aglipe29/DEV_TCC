@@ -2,21 +2,21 @@
 $dbHost = 'Localhost';
 $dbUsername ='root';
 $dbPass = '';
-$dbName = 'Nixies';
+$dbName = 'Nixies2';
 
 $con = mysqli_connect($dbHost,$dbUsername,$dbPass,$dbName);
 
-if(mysqli_connect_errno())
+//if(mysqli_connect_errno())
 
-{
+//{
 
-    echo "Erro";
+    //echo "Erro";
 
-}
+//}
 
-else{
+//else{
 
-    echo "Conexao efetuada com sucesso";
+  //  echo "Conexao efetuada com sucesso";
 
-}
-?>
+//}
+//?>

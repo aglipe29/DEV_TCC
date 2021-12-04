@@ -1,10 +1,27 @@
+<?php
+        if(isset($_POST['submit']))
+        {
+        //print_r($_POST['email']);
+        // print_r($_POST['senha']);
+        //print_r($_POST['nome']);
+        
+          include_once('config.php');
+          $nome = $_POST['nome'];
+          $email = $_POST['email'];
+          $senha = $_POST['senha'];
+
+          $result = mysqli_query($con,"INSERT INTO Usuario (nome,email,senha) VALUES ('$nome','$email','$senha')");
+        }
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela de Cadastro  </title>
+    <title>Tela de Cadastro</title>
     <style>
 
         body{
@@ -94,7 +111,7 @@
             padding: 15px;
              font-size: 15px;
             background-color:white;
-            width: 87%;
+            width: 90%;
         }
 
        button{
@@ -149,16 +166,19 @@
     </div>
 
     <div class="Cadastro">
-        <form method="POST" action="Cadastro.php">
+        <form method="POST" action="Tela de Cadastro.php">
         
         <h1>Vai Entrar Como?</h1>
         <div class="Input">
              <p>
+        
+        <input type="text" placeholder="Nome" name="nome" id="nome">
+        <br><br>
        
         <input type="text" placeholder="Email" name="email" id="email">
              </p>
         <br>
-        <br>
+        
        
         <input type="password" placeholder="Senha" name="senha" id="senha">
         
