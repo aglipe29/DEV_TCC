@@ -170,20 +170,20 @@ button{
             <div class="Titulos">
             <h1><b>Login</b></h1>
             <div class="Input">
-            <input type="text" placeholder="Email" name="login" id="login">
+            <input type="text" placeholder="Email" name="email" id="email">
             <br>
             <br>
             <input type="password" placeholder="Senha" name="senha" id="senha">
             </div>
             <br>
             <br>
-           <input type="submit" value="Logar" id="entrar" name="entrar" style="width: 100%; background-color: #131d47; color: white; 
+           <input type="submit" value="Logar" id="submit" name="submit" style="width: 100%; background-color: #131d47; color: white; 
             font-size: 20px;"><br>
             <h2> OU </h2>
 
             <button>
                 <div class="btn2">
-                <b><a href="Tela de Cadastro.html" >Criar Conta</a></b>
+                <b><a href="Tela de Cadastro.php" >Criar Conta</a></b>
             </div>
             </button>
 

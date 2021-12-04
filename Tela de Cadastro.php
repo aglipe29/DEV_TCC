@@ -11,6 +11,8 @@
           $senha = $_POST['senha'];
 
           $result = mysqli_query($con,"INSERT INTO Usuario (nome,email,senha) VALUES ('$nome','$email','$senha')");
+
+          header('Location: Tela de Inicio e Login.php');
         }
 
 ?>
@@ -145,7 +147,7 @@
 
         <div class="btn">
             
-                <b><a href="Tela de Inicio e Login.html">&#10550;</a></b>
+                <b><a href="Tela de Inicio e Login.php">&#10550;</a></b>
             
         </div>
 

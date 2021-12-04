@@ -1,3 +1,15 @@
+<?php
+
+    session_start();
+   if((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true))
+   {
+        unset($_SESSION['email']);
+        unset($_SESSION['senha']);
+        header('Location: Tela de Inicio e Login.php');
+   }
+   $logado = $_SESSION['email'];
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -148,7 +160,7 @@
 
     <div class="navbar"> 
         <div class="voltar">
-           <b><a href="Tela de Inicio e Login.html">&#10550;</a></b>
+           <b><a href="sair.php">&#10550;</a></b>
 
         </div>
           
