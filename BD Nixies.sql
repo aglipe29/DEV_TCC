@@ -11,3 +11,12 @@ senha VARCHAR(40) NOT NULL,
 PRIMARY KEY (idusuario)
 );
 
+CREATE TABLE Chat(
+idusuario INT NOT NULL,
+mensagem TEXT NOT NULL
+
+);
+
+ALTER TABLE Chat ADD CONSTRAINT fk_idusuario FOREIGN KEY (idusuario) REFERENCES Usuario (idusuario);
+
+

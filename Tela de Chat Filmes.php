@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="fontawesome/css/all.css" rel="stylesheet">
     <title>Chat Filmes</title>
+
+ 
     <style>
 
 body{
@@ -113,6 +115,7 @@ body{
 </head>
 <body>
 
+
     <div class="navbar">
 
         <div class="btn">
@@ -146,47 +149,14 @@ body{
     </div>
 
     <div class="chip">
-        <img src="avatar imagem.png" alt="Person" width="96" height="96">
-        Participante 1
-      </div>
-
-      <br><br>
-
-      <div class="chip">
-        <img src="avatar imagem.png" alt="Person" width="96" height="96">
-        Participante 2
-      </div>
-
-      <br><br>
-
-      <div class="chip">
-        <img src="avatar imagem.png" alt="Person" width="96" height="96">
-        Participante 3
-      </div>
-      
-      <br><br>
-
-
-      <div class="chip">
-        <img src="avatar imagem.png" alt="Person" width="96" height="96">
-        Participante 4
-      </div>
-
-      <br><br>
-
-      <div class="chip">
-        <img src="avatar imagem.png" alt="Person" width="96" height="96">
-        Participante 5
+        <img src="foto de perfil.jpg" alt="Person" width="96" height="96">
+        Filipe de Aguiar
       </div>
 
       <br><br>
 
       
-
-       
-
-    
-</div>
+      </div>
 
     
 
