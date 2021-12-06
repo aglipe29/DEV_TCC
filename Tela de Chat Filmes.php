@@ -7,7 +7,7 @@
     <link href="fontawesome/css/all.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script> 
-        var from = null, start = 0,  url = 'http://localhost/DEV_TCC/chat.php';
+        var from = null, start = 0,  url = 'http://localhost/DEV_TCC/chat1.php';
         $(document).ready(function (){
             from = prompt("Por favor, digite seu nome");
             load();
