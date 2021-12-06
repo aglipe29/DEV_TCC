@@ -100,7 +100,8 @@ body{
         }
 
         .msg{
-            background-color: #dcf8c6;
+            background-color: #131d47;
+            color:white;
             padding: 5px 10px;
             border-radius: 5px;
             margin-bottom: 8px;
